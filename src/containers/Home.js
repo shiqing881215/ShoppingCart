@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import store from '../store';
 // import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+import FloatCart from './../components/floatCart/FloatCart';
 import './Home.css';
 
 // This is the home component which has a link to the real App component
 class Home extends Component {
   render() {
     return (
+      <Provider store={store}>
       <div className="container">
         <img src={require(`../static/logo.png`)} className="logo"/>
         <div className="topImage">
@@ -23,7 +27,9 @@ class Home extends Component {
             <img src={require(`../static/All-Pokemon-Desktop-Wallpaper.jpg`)} />
         </div>
         <Footer />
+        <FloatCart />
       </div>
+      </Provider>
     )
   }
 }
