@@ -1,0 +1,241 @@
+{
+  "products": [
+    {
+      "id": 12,
+      "sku": 12064273040195392,
+      "title": "Alolan Vulpix Poké Plush",
+      "description": "Alolan Vulpix three-color plush with two-tone ears, curlicues on top, big embroidered eyes and small mouth, with fanned tail and loads of charm",
+      "availableSizes": ["S", "XS"],
+      "style": "Standard Doll",
+      "price": 14.99,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 13,
+      "sku": 51498472915966366,
+      "title": "Squirtle Poké Plush",
+      "description": "A jumbo-size Squirtle Poké Plush, with embroidered eyes and detailed face and shell, both top and bottom, with rolled shell edge. Tall enough to make a splash!",
+      "availableSizes": ["M"],
+      "style": "Jumbo Size Doll",
+      "price": 59.99,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 14,
+      "sku": 10686354557628303,
+      "title": "Venusaur Poké Plush",
+      "description": "You don't need a green thumb to love Venusaur Poké Plush, just a love of Grass-type Pokémon! This detailed and embroidered plush shows off Venusaur's eyes, flower, and features",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Large Size Doll",
+      "price": 17.99,
+      "installments": 3,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 15,
+      "sku": 11033926921508487,
+      "title": "Charizard Poké Plush",
+      "description": "Light a fire with Charizard! The fan-favorite Fire-type Pokémon knows how to battle—and makes a stunning Poké Plush with detailed claws and fiery tail! ",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Large Size Doll",
+      "price": 17.99,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 11,
+      "sku": 39876704341265606,
+      "title": "Zekrom Poké Plush",
+      "description": "This large Zekrom Poké plush stands a foot tall—very appropriate for a Legendary Pokémon! ",
+      "availableSizes": ["X", "L"],
+      "style": "Large Size Doll",
+      "price": 24.99,
+      "installments": 3,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 16,
+      "sku": 10412368723880253,
+      "title": "Meowth Poké Plush",
+      "description": "Featuring soft whiskers and an adorable curled tail, this Meowth Poké Plush is ready for hours of cozy cuddling on the couch",
+      "availableSizes": ["XS", "X", "L", "ML", "XL"],
+      "style": "Standard Doll",
+      "price": 14.99,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 0,
+      "sku": 8552515751438644,
+      "title": "Ditto As Gloom Poké Plush",
+      "description": "Four leafy flaps and two floppy feet make Gloom a cheerful little Poké Plush—plus that Ditto smile and eyes! This plush also features a lot of embroidered accents on Gloom's flowery top",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Standard Doll",
+      "price": 14.99,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "Psyduck Poké Plush",
+      "description": "Psy…. Psy…. DUCK! This Psyduck Poké Plush is clutching its head from all the Pokémon power surging through it-or maybe just from being a very famous, cute, yellow Pokémon! Embroidered eyes and three black featherlike strands on its head complete the look!",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Standard Doll",
+      "price": 12.99,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "Rowlet Squishy Plush",
+      "description": "Big eyes and a roly-poly round shape make this Rowlet Squishy Plush a wonderfully huggable version of the Grass-type first partner Pokémon from Alola. Stand it up, and the little orange feet almost disappear! Like all the Squishy Plush from Pokémon Center, this plush uses heavier, denser plush material for an added level of squishiness.",
+      "availableSizes": ["X", "L"],
+      "style": "Big Size Doll",
+      "price": 39.99,
+      "installments": 7,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "Blastoise Poké Plush",
+      "description": "Hose 'em down, Blastoise! The amazing Water-type Pokémon that sweeps away the competition with a Hydro Blast is available in detailed, colorful Poké Plush.",
+      "availableSizes": ["X", "L"],
+      "style": "Standard Doll",
+      "price": 17.99,
+      "installments": 7,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "Mew Poké Plush",
+      "description": "Small but fierce, this mighty Mew Poké Plush packs a lot of fluffiness and charm! Trainers, you might be taken by surprise with a Pokémon as powerful as little Mew!",
+      "availableSizes": ["XL"],
+      "style": "Small Size Doll",
+      "price": 7.99,
+      "installments": 12,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Gengar Eerie Delights Poké Plush",
+      "description": "Wrapped up in a Mega Banette costume complete with felt zippers and pink patches, this Gengar plush is ready to scare up some fun at the Eerie Delights party! A big nail-like decoration accents its head, imitating the effect of the move Curse. Place it as a centerpiece next to a candy bowl, or display it with other plush from the Eerie Delights collection",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Standard Doll",
+      "price": 19.99,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "Sitting Flareon Poké Plush",
+      "description": "Hot hot stuff with Fire-type Poké Plush! This Flareon plush has amazingly fluffy head fur and ruff, neatly stitched smile and paws, and some stylish ears. A watchful pose and a mischievous grin: that's Flareon!",
+      "availableSizes": ["XL", "XXL"],
+      "style": "Standard Doll",
+      "price": 12.99,
+      "installments": 0,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "Eevee Poké Plush",
+      "description": "This happy Eevee plush is ready to keep you company at your next TCG tournament, movie time, or anywhere else. It's a cheerful companion for all your Pokémon adventures!",
+      "availableSizes": ["S"],
+      "style": "Standard Doll",
+      "price": 12.99,
+      "installments": 4,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "Pikachu Poké Plush",
+      "description": "Pikachu is here for you as a big plush based on its size listed in the Pokédex! This Electric-type Pokémon is famous the world over, with its can-do attitude and deep friendships with Trainers and fellow Pokémon. This Poké Plush stands out with soft fabric, detailed embroidery, and a super-cute expression!",
+      "availableSizes": ["XL"],
+      "style": "Large Size Doll",
+      "price": 42.99,
+      "installments": 4,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "Chansey Poké Plush",
+      "description": "With a round body and soft pink fabric, this Chansey Poké Plush is an extra-cuddly version of a Pokémon known for its kindness—and for the egg on its belly! Bring a little luck into your collection or plush display with this fun friend.",
+      "availableSizes": ["L", "XL"],
+      "style": "Small Size Doll",
+      "price": 12.99,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 10,
+      "sku": 27250082398145995,
+      "title": "Arcanine Poké Plush",
+      "description": "Roar with Arcanine Poké Plush! This large plush comes complete with Arcanine's large mane and black stripes, plus little details like a fluffy tail and embroidered eyes. A Pokémon Center Original design!",
+      "availableSizes": ["L", "XL"],
+      "style": "Standard Doll",
+      "price": 24.99,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    }
+  ]
+}
