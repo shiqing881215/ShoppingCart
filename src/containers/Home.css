@@ -1,0 +1,26 @@
+.container {
+	width: 100%;
+}
+
+.logo {
+	padding: 10px;
+}
+
+.topImage {
+	padding: 10px;
+}
+
+.topImage img {
+	width: 100%;
+}
+
+.bottomImage {
+	display: flex;
+}
+
+.bottomImage img {
+	width: 33%;
+	height: 80%;
+	padding: 2px;
+
+}
