@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import Shelf from '../components/shelf/Shelf';
 import Footer from '../components/Footer';
 import FloatCart from './../components/floatCart/FloatCart';
+import Nav from '../components/Nav';
 
 import store from '../store';
 
@@ -20,10 +21,11 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
+          <a href="/">
+            <img src={require(`../static/logo.png`)} className="logo"/>
+          </a>
+          <Nav />
           <main>
-            <a href="/">
-              <img src={require(`../static/logo.png`)} />
-            </a>
             <img src={require(`../static/Hero_Pikachu_Holiday.jpg`)} />
             <Shelf />
           </main>

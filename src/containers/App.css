@@ -9,6 +9,10 @@ main {
   padding: 10px 2%;
   max-width: 1200px; }
 
+.logo {
+  padding: 10px;
+}
+
 .clearfix {
   clear: both; }
 
