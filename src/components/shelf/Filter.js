@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import { connect } from "react-redux";
 import { updateFilters } from '../../store/actions/filterActions';
+import { updateShippingFilters } from '../../store/actions/shippingFilterActions';
 import Checkbox from '../Checkbox';
 
 const availableSizes = [
@@ -28,6 +29,8 @@ class Filter extends Component {
       this.selectedCheckboxes.add(label);
     }
 
+    // props has an attribute called updateFilters and it was passed with updateFilters action
+    // from store in the last line in this file
     this.props.updateFilters(Array.from(this.selectedCheckboxes));
   }
 
@@ -47,20 +50,28 @@ class Filter extends Component {
   render() {
     return (
       <div className="filters">
-        <h4 className="title">Sizes:</h4>
+        <h4 className="title">Sizes</h4>
         {this.createCheckboxes()}
       </div>
     );
   }
 }
 
+// here "updateFilters" is not the real action, it's a key on prop
 Filter.propTypes = {
   updateFilters: PropTypes.func.isRequired,
   filters: PropTypes.array,
 }
 
+// the state here is from Store, in the index.js, 
+// the final state has a field for "filters", and it returns by filterReducer
+// here it maps the filters.items from final state to the filters props on the component
 const mapStateToProps = state => ({
   filters: state.filters.items,
 })
 
+// This updateFilters action is the action from store (filterActions.js)
+// This connect the component with store
+// Allows store to push new state to props and allows 
+// component to dispatch action to store
 export default connect(mapStateToProps, { updateFilters })(Filter);

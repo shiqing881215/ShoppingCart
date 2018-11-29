@@ -21,15 +21,34 @@ const compare = {
   }
 }
 
-export const fetchProducts = (filters, sortBy, callback) => dispatch => {
-
+// This is all the fetch products logic happnes with filter and sort
+// I'm not sure this is the best place for this logic to happen
+// Maybe it should be, reducer is just to combine and construct the final state
+export const fetchProducts = (filters, shippingFilter, sortBy, callback) => dispatch => {
+  debugger;
   axios.get(productsAPI)
     .then(res => {
       let { products } = res.data;
 
+      // whether filters contains this product availableSizes
       if(!!filters && filters.length > 0){
-        products = products.filter( p => filters.find( f => p.availableSizes.find( size => size === f ) ) )
+        products = products.filter(  // return all the elements in the array meets the find requirements
+          p => filters.find(   // return the first element in the array meet requirement. p is a product inside of products
+            f => p.availableSizes.find( size => size === f ) // f is each filter inside of filters
+          ) 
+        )
       }
+
+      debugger;
+      // Free shipping filter
+      if (!!shippingFilter && shippingFilter) {
+        products = products.filter(
+          p => p.isFreeShipping
+        )  
+      }
+      
+      console.log(shippingFilter);
+
 
       if(!!sortBy){
         products = products.sort(compare[sortBy]);

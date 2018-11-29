@@ -1,4 +1,4 @@
-import { UPDATE_FILTER } from '../actions/types';
+import { UPDATE_SHIPPING_FILTER } from '../actions/types';
 
 
 const initialState = {
@@ -7,11 +7,11 @@ const initialState = {
 
 export default function(state = initialState, action) {
   switch (action.type) {
-    case UPDATE_FILTER:
+    case UPDATE_SHIPPING_FILTER:
       //console.log(state);
       return {
         ...state,
-        items: action.payload   // payload is all the filters : xs, xl
+        items: action.payload   // payload is true or false
       };
     default:
       return state;

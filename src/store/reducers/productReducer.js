@@ -10,7 +10,7 @@ export default function(state = initialState, action){
     case FETCH_PRODUCTS:
       return {
         ...state,
-        items: action.payload
+        items: action.payload  // payload is the products that already filtered
       }
     default:
       return state;
